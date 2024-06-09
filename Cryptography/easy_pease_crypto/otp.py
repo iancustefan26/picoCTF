@@ -46,7 +46,6 @@ def encrypt(key_location):
 
 
 print("******************Welcome to our OTP implementation!******************")
-#c = startup(0)
-c = 32
+c = startup(0)
 while c >= 0:
 	c = encrypt(c)
